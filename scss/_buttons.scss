@@ -1,0 +1,12 @@
+// buttons
+
+@import "mymixins";
+
+
+.btn {
+  background-color: $brand-primary;
+  border: 1px solid darken($brand-primary, 10);
+  &:hover {
+    background-color: darken($brand-primary, 10);
+  }
+}

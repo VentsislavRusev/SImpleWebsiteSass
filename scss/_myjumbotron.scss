@@ -1,0 +1,7 @@
+// jumbotron-style
+@import "mymixins";
+
+
+.jumbotron {
+  @include my-gradient;
+}

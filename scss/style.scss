@@ -1,0 +1,28 @@
+// import the partials that I need
+
+// Bootstrap essentials
+@import "Bootstrap/scss/functions";
+@import "Bootstrap/scss/variables";
+@import "Bootstrap/scss/mixins";
+
+//Bootstrap extras
+@import "Bootstrap/scss/reboot";
+@import "Bootstrap/scss/grid";
+@import "Bootstrap/scss/jumbotron";
+@import "Bootstrap/scss/card";
+@import "Bootstrap/scss/buttons";
+
+// My styles
+@import "variables";
+@import "mymixins";
+@import "myjumbotron";
+@import "type";
+@import "buttons";
+@import "paragraphcolor";
+
+
+$background-color: red;
+
+body {
+  background: $background-color;
+}
