@@ -1,16 +1,16 @@
 // import the partials that I need
 
 // Bootstrap essentials
-@import "Bootstrap/scss/functions";
-@import "Bootstrap/scss/variables";
-@import "Bootstrap/scss/mixins";
+@import "scss/functions";
+@import "scss/variables";
+@import "scss/mixins";
 
 //Bootstrap extras
-@import "Bootstrap/scss/reboot";
-@import "Bootstrap/scss/grid";
-@import "Bootstrap/scss/jumbotron";
-@import "Bootstrap/scss/card";
-@import "Bootstrap/scss/buttons";
+@import "scss/reboot";
+@import "scss/grid";
+@import "scss/jumbotron";
+@import "scss/card";
+@import "scss/buttons";
 
 // My styles
 @import "variables";
@@ -19,10 +19,3 @@
 @import "type";
 @import "buttons";
 @import "paragraphcolor";
-
-
-$background-color: red;
-
-body {
-  background: $background-color;
-}
